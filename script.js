@@ -6,30 +6,30 @@ app.config(function($routeProvider,$locationProvider) {
     	templateUrl :"./prac/home/home.html"
     })
     .when("/project", {
-        templateUrl : "project/project.html"
+        templateUrl : "./prac/project/project.html"
     })
 
     .when("/qualification", {
-    	templateUrl : "qualification/qualification.html"
+    	templateUrl : "./prac/qualification/qualification.html"
     })
     .when("/contactus",{
-    	templateUrl : "contactus/contactus.html"
+    	templateUrl : "./prac/contactus/contactus.html"
     })
     .when("/contactme",{
-    	templateUrl :"contactme/contactme.html"
+    	templateUrl :"./prac/contactme/contactme.html"
     	
     })
     .when("/hobbies",{
-    	templateUrl : "hobbies/hobbies.hxtml"
+    	templateUrl : "./prac/hobbies/hobbies.hxtml"
     })
     .when("/certification",{
-    	templateUrl : "certification/certification.html"
+    	templateUrl : "./prac/certification/certification.html"
         
     })
     .when("/Resume",{
-    	templateUrl : "/index.html"
+    	templateUrl : "./prac/index.html"
     })
-    .otherwise({"redirectTo":'/home'})
+    .otherwise({"redirectTo":'./prac/home'})
     $locationProvider.html5Mode(true);
     
 });
