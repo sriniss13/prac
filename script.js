@@ -29,7 +29,7 @@ app.config(function($routeProvider,$locationProvider) {
     .when("/Resume",{
     	templateUrl : "./prac/index.html"
     })
-    .otherwise({"redirectTo":'./prac/home'})
+    .otherwise({"redirectTo":'/home'})
     $locationProvider.html5Mode(true);
     
 });
