@@ -1,0 +1,35 @@
+               {"navbar":
+
+               	[ 					{ 
+ 						"address" :"/home",
+ 						"name" :"Home"
+ 					},
+ 					{ 
+ 						"address" :"/project",
+ 						"name" :"Project"
+ 					},
+ 					{ 
+ 						"address" :"/qualification",
+ 						"name" :"Qualification"
+ 					},
+ 					{ 
+ 						"address" :"/contactus",
+ 						"name" :"Contactus"
+ 					},
+ 					{ 
+ 						"address" :"/contactme",
+ 						"name" :"contactme"
+ 					}
+
+ 				],
+
+               "dropdown":[ 
+  					{ 
+ 						"address" :"/hobbies",
+ 						"name" :"Hobbies"
+ 					},
+ 					{ 
+ 						"address" :"/certification",
+ 						"name" :"Certification"
+ 					}
+  	]}
