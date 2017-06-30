@@ -20,7 +20,7 @@ app.config(function($routeProvider,$locationProvider) {
     	
     })
     .when("/hobbies",{
-    	templateUrl : "./prac/hobbies/hobbies.hxtml"
+    	templateUrl : "./prac/hobbies/hobbies.html"
     })
     .when("/certification",{
     	templateUrl : "./prac/certification/certification.html"
